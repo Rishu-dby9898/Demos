@@ -1,0 +1,85 @@
+
+body{
+    margin:0;
+    padding:0;
+    /* overflow-x: hidden; */
+}
+input[type="text"],
+input[type=number],
+select {
+    border: none !important;
+    outline: none !important;
+    padding: 0 !important;
+    border-radius: 0px !important;
+    width: 90% !important;
+}
+
+.input-box{
+    box-shadow: 1.5px 0.5px 10.5px rgb(167, 166, 166) !important;
+    position: relative !important;
+    width:59vw!important;
+}
+
+.oid{
+    border-right:2px solid rgb(239, 236, 236);
+}
+
+.truck img{
+    display:absolute;
+    width: 40vw;
+}
+
+
+.subscribe {
+    color: #415161;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.load {
+
+    color: #007DF5;
+    font-size: 4vw    ;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.trailer-as-a {
+    color: #647687;
+    font-size: 1.5vw;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.input-box {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 1vw; /* Adjust margin based on viewport width */
+}
+
+.form-group label,
+.form-group input,
+.form-group select {
+    font-size: 1vw; /* Adjust font size based on viewport width */
+    margin-bottom: 1vh; /* Adjust margin based on viewport height */
+}
+
+/* Additional styles for responsiveness, if needed */
+@media only screen and (max-width: 600px) {
+    .input-box {
+        margin-left: 2vw; /* Adjust margin for smaller screens */
+    }
+
+    .form-group label,
+    .form-group input,
+    .form-group select {
+        font-size: 1vw; /* Adjust font size for smaller screens */
+        margin-bottom: 2vh; /* Adjust margin for smaller screens */
+    }
+}
+

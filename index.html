@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="col-12 border" style="background-color: #EDF6FF;">
+        <div class="col-12 mt-5 d-flex ">
+            <div class="col-6 p-5">
+                <div class="subscribe mt-5" style="margin-left: 50px;">
+                    <span>Subscribe. </span>
+                    <span class="load">Load.</span>
+                    <span> Haul.</span>
+                </div>
+
+                <div class="trailer-as-a-container mt-2 " style="margin-left: 50px;">
+                    <p class="trailer-as-a">
+                        Trailer as a Services ia an all-inclusive offering
+                        that
+                        lets
+                        you
+                    </p>
+                    <p class="trailer-as-a">
+                        focus on your business while we manage your fleet.
+                    </p>
+                </div>
+
+                <div class="col-6 mt-4 input-box" style="background-color: white; border-radius:15px; margin-left: 50px;">
+                    <div class="container mt-2 mb-2 ms-2 p-1">
+                        <div class="row ms-3">
+                            <!-- Column 1: Pickup Location -->
+                            <div class="col oid p-1 ">
+                                <div class="form-group">
+                                    <label for="pickup_location">Pickup location</label>
+                                    <input type="text" id="pickup_location" placeholder="City, state, or zipcode">
+                                </div>
+                            </div>
+        
+                            <!-- Column 2: Trailer Type -->
+                            <div class="col oid p-1">
+                                <div class="form-group ms-4">
+                                    <label for="trailer_type">Trailer type</label>
+                                    <select name="" id="" class="trailer-type">
+                                        <option style="color: grey;">Select type</option>
+                                        <option value="">Dryvans trailer</option>
+                                        <option value="">Reefer vans trailer</option>
+                                        <option value="">Flat bed trailer</option>
+                                        <option value="">Tank trailer</option>
+                                    </select>
+                                </div>
+                            </div>
+        
+                            <!-- Column 3: Quantity -->
+                            <div class="col p-1">
+                                <div class="form-group ms-4">
+                                    <label for="quantity">Quantity</label>
+                                    <input type="number" id="quantity" min="0" step="1" placeholder="Add no. of trailers">
+                                </div>
+                            </div>
+        
+                            <!-- Column 4: Search Icon -->
+                            <div class="col p-1 ">
+                                <div class="form-group ms-5 me-0" style="right:0">
+                                    <a href="#">
+                                        <img src="./assets/taas/search_icon.png" alt="Search Icon" width="70vw">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Search Suggestions -->
+                    <div class="search-suggestion" id="result"></div>
+        
+                </div>
+               
+                
+            </div>
+           
+
+            <div class="truck col-6  banner_icn">
+                <img style="float:right; bottom:0; right:0;" src="./assets/taas/Banner_image.png" alt>
+            </div>
+        </div>
+
+
+        <!-- <div class=" m-5 col-8 border input-box" style="background-color: white; border-radius:10px">
+            <div class="container mt-2 mb-2 ms-2">
+                <div class="row ms-3">
+                    <div class="col oid ">
+                        <div class="form-group">
+                            <label for="pickup_location">Pickup location</label>
+                            <input type="text" id="pickup_location" placeholder="City, state, or zipcode">
+                        </div>
+                    </div>
+
+                    <div class="col oid">
+                        <div class="form-group ms-4">
+                            <label for="trailer_type">Trailer type</label>
+                            <select name="" id="" class="trailer-type">
+                                <option style="color: grey;">Select type</option>
+                                <option value="">Dryvans trailer</option>
+                                <option value="">Reefer vans trailer</option>
+                                <option value="">Flat bed trailer</option>
+                                <option value="">Tank trailer</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col oid ">
+                        <div class="form-group ms-4">
+                            <label for="quantity">Quantity</label>
+                            <input type="number" id="quantity" min="0" step="1" placeholder="Add no. of trailers">
+                        </div>
+                    </div>
+
+                    <div class="col  ">
+                        <div class="form-group ms-5" style="right:0">
+                            <a href="#">
+                                <img src="./assets/taas/search_icon.png" alt="Search Icon" width="60px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search-suggestion" id="result"></div>
+
+        </div> -->
+
+    </div>
+
+</body>
+
+</html>
